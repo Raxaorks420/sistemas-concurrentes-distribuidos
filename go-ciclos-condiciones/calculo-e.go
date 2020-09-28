@@ -21,7 +21,7 @@ func main() {
 	fmt.Scan(&number)
 
 	var euler float64
-	for i := 0; i < number; i++ {
+	for i := 0; i <= number; i++ {
 		euler = euler + (1 / factorial(i))
 	}
 
